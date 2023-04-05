@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #23252C;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-family: 'Lily Script One', cursive; */
+    letter-spacing: .3px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1A1B21;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.about-picture {
+    width: 350px;
+    height: 330px;
+    border-radius: 8px 8px 0 0;
+}
+
+.info-section {
+    text-align: center;
+}
+
+.about-section
+ {
+    margin: 10px 30px 0;
+}
+
+.interests-section {
+    margin: 0px 30px 25px;
+}
+
+button {
+    width: 80%;
+    border-radius: 5px;
+    padding: 8px;
+    border: none;
+}
+
+.fa-envelope {
+    margin-right: 8px;
+}
+
+h4 {
+    font-weight: lighter;
+    color: #f2cc8f;
+}
+
+.icon {
+    /* margin: 0 10px 20px 0; */
+}
+
+.footer-container {
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    background-color: #161619;
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
